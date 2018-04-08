@@ -21,6 +21,10 @@ function iLoveTheBeatles (num){
   var resultArray = [];
   var index = 0;
   do {
-    resultArray[index] = "";
+    resultArray[index] = "I love the Beatles!";
+    index ++;
+    num ++;
   } while (num <15)
+  
+  return resultArray;
 }
